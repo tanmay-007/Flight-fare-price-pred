@@ -52,6 +52,9 @@ class Application:
         # Entries for all labels============================================================
         self.name_ent = Entry(self.left, width=30)
         self.name_ent.place(x=250, y=100)
+        
+        self.time = Label(self.left, text="Appointment Time", font=('arial 18 bold'), fg='black', bg='lightgreen')
+        self.time.place(x=0, y=260)
 
         self.age_ent = Entry(self.left, width=30)
         self.age_ent.place(x=250, y=140)
